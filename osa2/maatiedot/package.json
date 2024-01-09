@@ -1,5 +1,5 @@
 {
-  "name": "testailua",
+  "name": "maatiedot",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -11,7 +11,8 @@
     "server": "json-server -p3001 --watch db.json"
   },
   "dependencies": {
-    "axios": "^1.6.4",
+    "axios": "^1.6.5",
+    "dotenv": "^16.3.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },
